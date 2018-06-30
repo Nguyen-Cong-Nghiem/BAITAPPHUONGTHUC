@@ -18,7 +18,7 @@ public class SapXepGiamDan {
     static void displayMang (int[] mang) {
         System.out.println("Mang mới là: ");
         for (int i = 0; i < mang.length; i++) {
-            System.out.println(mang[i]);
+            System.out.print(mang[i]);
         }
     }
     public static void main(String[] args) {
